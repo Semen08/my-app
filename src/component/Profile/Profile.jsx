@@ -1,19 +1,12 @@
 import React from 'react';
-import s from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
+import s from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
-  return <div>
-
-    <div>
-      <img src='https://lifeboat.com/blog.images/the-acceleration-of-acceleration-how-the-future-is-arriving-far-faster-than-expected.jpg' />
-    </div>
-    <div>
-      avatar
-    </div>
+  return   <div>
+    <ProfileInfo/> 
     <MyPosts/>
-
-
   </div>
 }
 export default Profile;
